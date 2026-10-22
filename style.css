@@ -867,3 +867,15 @@ textarea {
   -ms-user-select: text;
   user-select: text;
 }
+
+
+/* Prevent horizontal scrolling on mobile */
+@media (max-width: 759px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+
