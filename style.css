@@ -518,12 +518,12 @@ p { margin: 0; }
 .portrait img {
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;           /* a photo: fill the frame, keep the face in view */
+  aspect-ratio: 4/ 5;
+  object-fit:contain;           /* a photo: fill the frame, keep the face in view */
   object-position: center 20%;
-  background: none;
+  background: transparent;
   border: 1px solid var(--rule);
-  border-radius: 6px;
+  border-radius: 50px;
   border-color: transparent;
 }
 
